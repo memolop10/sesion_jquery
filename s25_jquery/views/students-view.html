@@ -1,0 +1,50 @@
+<section id="alumnos">
+	<h1>Este es el contenido de mi sección Alumnos</h1>
+	<div class="col-7">
+		<table>
+			<thead>
+				<tr>
+					<th>Nombre</th>
+					<th>Edad</th>
+					<th>Ciudad</th>
+					<th>Fecha de nacimiento</th>
+				</tr>
+			</thead>
+			<tbody id="alumnos-table">
+				
+			</tbody>
+		</table>
+		<form action="">
+			<div class="form-group">
+				<label for="">Nombre</label>
+				<input id="student-name" type="text">
+			</div>
+			<div class="form-group">
+				<label for="">Edad</label>
+				<input id="student-age" type="number">
+			</div>
+			<div class="form-group">
+				<label for="">Ciudad</label>
+				<input id="student-city" type="text">
+			</div>
+			<div class="form-group">
+				<label for="">Fecha de nacimiento</label>
+				<input id="student-birthdate" type="text">
+			</div>
+			<div class="form-group">
+				<div id="add-student" class="btn btn-primary">Agregar</div>
+			</div>
+		</form>
+	</div>
+	<div class="col-3">
+		<div class="student-card">
+			<img class="card-student-pic" src="img/student-one.jpg" alt="">
+			<p>Nombre: <span class="card-student-name"></span></p>
+			<p>Edad: <span class="card-student-age"></span></p>
+			<p>Fecha de nacimiento: <span class="card-student-birthdate"></span></p>
+			<p>Ciudad: <span class="card-student-city"></span></p>
+		</div>
+	</div>
+	<br><br>
+	<div class="btn get-users-btn">Get all users</div>
+</section>
